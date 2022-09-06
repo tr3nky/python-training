@@ -14,5 +14,9 @@ n % 2 == 1 #Páratlan
 #  Kérj be a felhasználótól egy számot! Ha az páros, írd ki, hogy páros.
 #  Ha az páratlan, írd ki, hogy páratlan.
 
-number= int(input ("Írj be egy számot"))
-if True
+szam = int(input ("Írj be egy számot!"))
+maradek = szam % 2
+if maradek == 0:
+    print("páros")
+if maradek !=0:
+    print("páratlan")
