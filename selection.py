@@ -18,5 +18,5 @@ szam = int(input ("Írj be egy számot!"))
 maradek = szam % 2
 if maradek == 0:
     print("páros")
-if maradek !=0:
+if maradek ==1:
     print("páratlan")
