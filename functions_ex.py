@@ -3,9 +3,6 @@
 #  Ha a 0, akkor 0-át ad vissza
 #  Ha nagyobb, mint 0, akkor 1-et ad vissza
 
-from pickle import FALSE
-from re import I
-
 
 def signum(n):
     #if n > 0:
